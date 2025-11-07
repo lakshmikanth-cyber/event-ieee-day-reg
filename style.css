@@ -53,9 +53,11 @@ header h2 {
 }
 
 .logo {
-    height: 90px; /* Adjust this value to make logos bigger or smaller */
-    width: auto;
-    background-color: transparent; /* Ensures transparent backgrounds work */
+    height: auto; /* Adjust this value to make logos bigger or smaller */
+    width: 100%;
+    background-color: transparent;
+    
+ max-width: 100%; 
 }
 
 /* You might want to adjust the IEEE CS logo slightly */
@@ -188,4 +190,5 @@ footer {
     background-color: var(--text-dark);
     color: var(--text-light);
     margin-top: 2rem;
+
 }
